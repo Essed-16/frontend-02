@@ -102,7 +102,7 @@ footer {
   padding: 28px 16px;
   margin-top: auto;
 }
-.redes { display: flex; justify-content: center; gap: 20px; }
+.redes { display: flex; flex-direction: column; align-items: center; gap: 14px; }
 .redes svg { width: 34px; height: 34px; fill: var(--color-primario); transition: fill 0.25s; }
 .redes a:hover svg { fill: var(--color-borde); }
 .nombre { font-weight: 700; }
